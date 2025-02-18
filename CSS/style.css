@@ -34,12 +34,28 @@
 
 
 .rettangolo{
-    padding-bottom: 40px;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: 5px;
+    width: 5px;
+    background-color:dodgerblue ;
+    color: white;
+    
+
+    
 
 }
 
 .rettangolo-trasparente{
-    padding-bottom: 40px;
+    border: solid;
+    border-radius: 10px;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    color: rgb(224, 224, 224)
+    
+    
 }
 
 
@@ -51,9 +67,81 @@
 
 ul{
     list-style-type: none;
-    padding-bottom: 10px;
+    margin: bottom 20px; ;
 }
 
 li{
+    padding-bottom: 25px;
+}
+
+.spazio{
+    margin-top: 40px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    
+}
+.spazio-2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.forme-lista{
+    border: solid;
+    border-radius: 20px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.colore-1{
+    background-color: dodgerblue;
+    color: white;
+    font-size: small;
+}
+
+.colore-2{
+    background-color: blueviolet;
+    color: white;
+    font-size:small ;
+}
+.colore-3{
+    background-color: rgb(80, 194, 141);
+    color: white;
+    font-size: small;
+}
+.colore-4{
+    background-color: orange;
+    color: white;
+    font-size: small;
+}
+.colore-5{
+    background-color: rgb(231, 88, 231);
+    color: white;
+    font-size: small;
+}
+.colore-6{
+    background-color: rgb(167, 211, 78);
+    color: white;
+    font-size: small;
+}
+
+.entities-1{
+    color:rgb(48, 212, 48);
+    border: 1px solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+
+    
+}
+.entities-2{
+    color: red;
+    border: 1px solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 70%;
+    margin-right: 8px;
+
+
 }
