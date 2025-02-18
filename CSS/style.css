@@ -1,0 +1,59 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.toboolist{
+    display: inline-block;
+    font-size: 300%;
+}
+
+.vertical-align{
+    vertical-align: middle;
+    
+    
+}
+
+.body{
+    background: #ebeaea;
+}
+
+.container{
+   height: 1000px;
+   margin: 50px 1400px 400px 200px;
+    background-color: white ;
+    padding: 30px;
+}
+
+
+.rettangolo{
+    padding-bottom: 40px;
+
+}
+
+.rettangolo-trasparente{
+    padding-bottom: 40px;
+}
+
+
+.color-div{
+    background: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+li{
+    padding-bottom: 10px;
+}
